@@ -1,8 +1,8 @@
 export default function Learn() {
     return (
       <section className="h-screen bg-gray-100 flex flex-col gap-8 p-8 items-center">
-      <div className="flex gap-28">
-        <div className="bg-blue-200 p-8 h-72 w-100 rounded-4xl flex flex-col justify-between text-blue-950">
+      <div className="flex gap-12">
+        <div className="bg-blue-200 p-8 h-72 w-108 rounded-4xl flex flex-col justify-between text-blue-950">
             <div className="flex gap-4">
                 <img src="/palette.svg" alt="palette"/>
                 <p className="font-bold">Design</p>
@@ -13,7 +13,7 @@ export default function Learn() {
         </div>
         </div>
 
-        <div className="bg-green-200 p-8 h-72 w-100 rounded-4xl flex flex-col justify-between text-blue-950">
+        <div className="bg-green-200 p-8 h-72 w-108 rounded-4xl flex flex-col justify-between text-blue-950">
             <div className="flex gap-4">
                 <img src="/terminal-2.svg" alt="terminal-2"/>
                 <p className="font-bold">AI</p>
